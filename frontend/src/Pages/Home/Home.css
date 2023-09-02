@@ -1,0 +1,12 @@
+.categoryCardWrap{
+    width: max-content;
+}
+
+.categoryCardWraper{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.categoryCardWraper::-webkit-scrollbar{
+    display: none;
+}
