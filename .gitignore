@@ -1,0 +1,37 @@
+# Node.js and Express
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# MongoDB
+data/
+db.js
+
+# React build and development files
+/build/
+/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# Log files
+*.log
+
+# Compiled files
+*.min.js
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
