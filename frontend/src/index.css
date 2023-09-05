@@ -8,3 +8,27 @@
 .rounded-brand{
   border-radius: 15px !important;
 }
+
+.text-brand-purp{
+  color: #9400FF !important;
+}
+
+.bg-brand-purp{
+  background-color: #9400FF !important;
+}
+
+.border-brand-purp{
+  border-color: 1px solid #9400FF !important;
+}
+
+.text-brand-liblue{
+  color: #E4F1FF !important;
+}
+
+.bg-brand-liblue{
+  background-color: #E4F1FF !important;
+}
+
+.border-brand-liblue{
+  border: 1px solid #E4F1FF !important;
+}

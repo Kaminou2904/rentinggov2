@@ -1,0 +1,43 @@
+.backBtn, .heartBtn, .cartBtn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartBtn{
+    padding: 5px;
+}
+
+.cartImg{
+    filter: invert(10%) sepia(100%) saturate(7334%) hue-rotate(276deg) brightness(104%) contrast(117%);
+}
+
+.mainDetailImgCont{
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    height: 53vh;
+}
+
+.mainDetailName{
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.mainDetailNameSpan{
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.datepicker::-webkit-slider-thumb{
+    background-color: #9400FF !important;
+}
+
+.datepicker::-webkit-slider-runnable-track{
+    background-color: rgb(223, 223, 223) !important;
+}
+
+.aboutTxt{
+    line-height: 17px;
+}

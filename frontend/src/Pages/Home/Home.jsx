@@ -18,7 +18,7 @@ function Home() {
         <div className="searchBoxWrap px-4">
             <div className="searchBox d-flex justify-content-between align-items-center rounded-pill shadow-sm mt-3">
                 <input type="text" className="form-control shadow-none border-0 rounded-pill py-1" placeholder='Search product or category'/>
-                <p className="filterIcon d-flex justify-content-center align-items-center px-4 py-2 bg-primary rounded-pill text-center mb-0"><i className="fas fa-sliders-h fs-3 my-1 text-white"></i></p>
+                <p className="filterIcon d-flex justify-content-center align-items-center px-4 py-2 bg-brand-purp rounded-pill text-center mb-0"><i className="fas fa-sliders-h fs-3 my-1 text-white"></i></p>
             </div>
         </div>
 
@@ -38,13 +38,15 @@ function Home() {
             </div>
         </div>
 
-        <div className="trendingProDiv px-4">
-            <div className="d-flex categoryHead justify-content-between align-items-end mt-5">
+        <div className="trendingProDiv">
+            <div className="d-flex categoryHead justify-content-between align-items-end px-4 mt-5">
                 <p className="fs-5 nunito-bold mb-0">Trending</p>
                 <p className="mb-0 fs-6 text-muted nunito-medium">More</p>
             </div>
-            <div className="productCardWraper mt-3">
-                <div className="productCardWrap d-flex">
+            <div className="productCardWraper mt-1">
+                <div className="productCardWrap p-2 px-4 pb-5 d-flex">
+                    <Productcard/>
+                    <Productcard/>
                     <Productcard/>
                 </div>
             </div>

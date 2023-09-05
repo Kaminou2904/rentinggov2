@@ -10,3 +10,16 @@
 .categoryCardWraper::-webkit-scrollbar{
     display: none;
 }
+
+.productCardWrap{
+    width: max-content;
+}
+
+.productCardWraper{
+    overflow-x: auto;
+    width: 100%;
+}
+
+.productCardWraper::-webkit-scrollbar{
+    display: none;
+}
